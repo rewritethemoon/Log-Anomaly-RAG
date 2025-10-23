@@ -1,0 +1,7 @@
+@echo off
+pyinstaller --onefile --windowed ^
+  --add-data "models;models" ^
+  --add-data "data;data" ^
+  app.py
+
+move dist\app.exe standalone\LogRAG_Assistant.exe
