@@ -39,9 +39,9 @@ For a seamless experience on Windows:
    git clone https://github.com/rewritethemoon/Log-Anomaly-RAG.git
    cd Log-Anomaly-RAG
 
-Download required models and data:
-
-models_data.zip  
+2. Download required models and data:
+   ## Download Models and Data
+   Download the required models and data here: [models_data.zip](https://drive.google.com/uc?export=download&id=1k72zENgTDKA87pU4tPt3uQuqVEifkN2-)
 
 
 Extract the zip file:
