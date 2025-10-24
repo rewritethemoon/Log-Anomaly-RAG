@@ -38,20 +38,19 @@ For a seamless experience on Windows:
    ```bash
    git clone https://github.com/rewritethemoon/Log-Anomaly-RAG.git
    cd Log-Anomaly-RAG
-
+   ```
 2. Download required models and data:
    ## Download Models and Data
    Download the required models and data here: [models_data.zip](https://drive.google.com/uc?export=download&id=1k72zENgTDKA87pU4tPt3uQuqVEifkN2-)
 3. Extract the zip file:
    ```bash
    unzip models_data.zip
-   
+   ```
 4.Run the system with a single click:
    ```bash
    double-click run.bat
+   ```
 5.Open your browser at: http://localhost:8501
-
-
 Note: Ensure Python 3.10+ is installed. The script will handle dependencies automatically.
 
 
