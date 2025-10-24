@@ -104,18 +104,20 @@ uvicorn
 ```
 ## Deployment Options
 # 1. Local Development (1-Click)
-Use run.bat as described above.
+- Use run.bat as described above.
 
 # 2. Docker Deployment
-For server deployment:
+- For server deployment:
+```bash
 bashdocker-compose up --build
+```
 
-Access the demo at: http://your-server-ip:8501
-Access the API at: http://your-server-ip:8001/docs
+- Access the demo at: http://your-server-ip:8501
+- Access the API at: http://your-server-ip:8001/docs
 
 # 3. Standalone Execution (No Python Required)
-Copy standalone/LogRAG_Assistant.exe to any Windows PC.
-Double-click to run → Browser opens automatically.
+- Copy standalone/LogRAG_Assistant.exe to any Windows PC.
+- Double-click to run → Browser opens automatically.
 
 ## Results
 
@@ -131,25 +133,29 @@ Double-click to run → Browser opens automatically.
 ## How It Works
 
 1.Data Preprocessing: Loads and cleans log data from BGL_preprocessed.csv.
+
 2.ML Model: Isolation Forest detects anomalies with high recall.
+
 3.RAG Pipeline: FAISS retrieves similar logs, and flan-t5-base generates explanations.
+
 4.API: FastAPI serves predictions and explanations.
+
 5.UI: Streamlit provides an interactive interface.
 
 
 ## Contributing
+
 Feel free to open issues or submit pull requests!
-Issues: https://github.com/rewritethemoon/Log-Anomaly-RAG/issues
-Fork: Clone and improve the project.
+
+- Issues: https://github.com/rewritethemoon/Log-Anomaly-RAG/issues
+- Fork: Clone and improve the project.
 
 License
 This project is licensed under the MIT License.
 
 Author
 
-Name: Trần Gia Huy
-GitHub: rewritethemoon
+- Name: Trần Gia Huy
 
+- GitHub: rewritethemoon
 
-   git commit -m "docs: update README with professional content"
-   git push
