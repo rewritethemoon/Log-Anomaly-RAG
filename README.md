@@ -31,7 +31,6 @@ This project is an intelligent log analysis system developed for the Grab 2025 I
 ---
 
 ## Quick Start (1-Click Run)
-
 For a seamless experience on Windows:
 
 1. Download the repository:
@@ -46,7 +45,7 @@ For a seamless experience on Windows:
    ```bash
    unzip models_data.zip
    ```
-4.Run the system with a single click:
+   4.Run the system with a single click:
    ```bash
    double-click run.bat
    ```
