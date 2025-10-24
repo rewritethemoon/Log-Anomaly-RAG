@@ -1,3 +1,11 @@
-models/faiss.index
-models/faiss_texts.csv
-models/faiss_metadata.pkl
+models/
+data/
+__pycache__/
+*.pyc
+.env
+venv/
+dist/
+build/
+*.egg-info/
+standalone/*.exe
+.DS_Store
