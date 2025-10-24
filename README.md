@@ -42,13 +42,13 @@ For a seamless experience on Windows:
 2. Download required models and data:
    ## Download Models and Data
    Download the required models and data here: [models_data.zip](https://drive.google.com/uc?export=download&id=1k72zENgTDKA87pU4tPt3uQuqVEifkN2-)
-
-
-Extract the zip file:
-bashunzip models_data.zip
-
-Run the system with a single click:
-batdouble-click run.bat
+3. Extract the zip file:
+```bash
+   unzip models_data.zip
+   
+4.Run the system with a single click:
+```bat 
+double-click run.bat
 
 Open your browser at: http://localhost:8501
 
