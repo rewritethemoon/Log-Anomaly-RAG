@@ -1,5 +1,8 @@
+# File lớn
 models/
 data/
+
+# Python
 __pycache__/
 *.pyc
 .env
@@ -9,3 +12,7 @@ build/
 *.egg-info/
 standalone/*.exe
 .DS_Store
+
+# IDE
+.vscode/
+.idea/
