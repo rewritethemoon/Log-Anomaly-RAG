@@ -53,8 +53,10 @@ For a seamless experience on Windows:
    Note: Ensure Python 3.10+ is installed. The script will handle dependencies automatically.
 
 
-Project Structure
-textLog-Anomaly-RAG/
+## Project Structure
+
+```text
+Log-Anomaly-RAG/
 ├── run.bat              # 1-click run script
 ├── api/                 # FastAPI backend
 │   └── main.py          # API endpoint
@@ -68,6 +70,7 @@ textLog-Anomaly-RAG/
 ├── README.md            # This file
 ├── LICENSE              # MIT License
 └── .gitignore           # Ignore large files and temp data
+```
 
 Installation
 Prerequisites
