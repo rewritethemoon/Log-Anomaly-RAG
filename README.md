@@ -45,12 +45,12 @@ For a seamless experience on Windows:
    ```bash
    unzip models_data.zip
    ```
-   4.Run the system with a single click:
+4. Run the system with a single click:
    ```bash
    double-click run.bat
    ```
-5.Open your browser at: http://localhost:8501
-Note: Ensure Python 3.10+ is installed. The script will handle dependencies automatically.
+5. Open your browser at: http://localhost:8501
+   Note: Ensure Python 3.10+ is installed. The script will handle dependencies automatically.
 
 
 Project Structure
