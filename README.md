@@ -1,6 +1,6 @@
 # Log Anomaly Detection with RAG
 
-**Grab Intern Project 2025**  
+**Project 2025**  
 *Unsupervised Machine Learning + Retrieval-Augmented Generation for Intelligent Log Analysis*
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://localhost:8501)  
@@ -12,7 +12,7 @@
 
 ## Overview
 
-This project is an intelligent log analysis system developed for the Grab 2025 Intern Program. It combines **Unsupervised Machine Learning (Isolation Forest)** and **Retrieval-Augmented Generation (RAG)** using a pre-trained language model (`flan-t5-base`) to detect anomalies in system logs and provide human-readable explanations. The system includes a **FastAPI backend**, a **Streamlit frontend**, and supports multiple deployment options.
+This project is an intelligent log analysis system developed. It combines **Unsupervised Machine Learning (Isolation Forest)** and **Retrieval-Augmented Generation (RAG)** using a pre-trained language model (`flan-t5-base`) to detect anomalies in system logs and provide human-readable explanations. The system includes a **FastAPI backend**, a **Streamlit frontend**, and supports multiple deployment options.
 
 - **ML Performance**: F1-score = 0.395, Recall = 100%
 - **RAG**: FAISS index with `all-MiniLM-L6-v2` embeddings
